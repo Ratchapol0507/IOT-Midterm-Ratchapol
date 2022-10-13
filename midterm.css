@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&display=swap');
+
+*{
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 0.8px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+button{
+    padding: 3px 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    margin:  10px;
+    transition: all 0.25s ease;
+}
+.btn-1{
+    color: rgb(239, 252, 57);
+    text-shadow: 0 1px 10px rgb(252, 98, 9);
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, 0.5),
+    0px 0px 0px 0px rgba(39, 200, 255, 0.5);
+}
+
+.btn-1:hover {
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 2px rgba(143, 64, 248, 0.5),
+    -10px 10px 25px 2px rgba(39, 200, 255, 0.5);
+}
+.btn-1:hover::after{
+    transform: rotate(150deg);
+}
+.btn-1::after{
+    content: "";
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -150px;
+    left: -100px;
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg,#27d86c 10%,#26caf8 50% , #c625d0 100%);
+    z-index: -1;
+    transition: all 0.25s ease;
+}
+
+.wrapper label{
+    font-size: 28px;
+    color: transparent;
+    background-image: linear-gradient(#ff0000,#2ecc71,#3498db,#9b59b6,#f39c12);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size:500%;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    25%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    0%{
+        background-position: 0 100%;
+    }
+}
+
+.wrapper h1{
+    font-size:  60px;
+    color: transparent;
+    background-image: linear-gradient(#ff0080,#2eb4cc,#22dbad,#c627dbf8,#f36412ce);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size:500%;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    25%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    0%{
+        background-position: 0 100%;
+    }
+}
+
+.wrapper h3{
+    font-size: 22px;
+    color: transparent;
+    background-image: linear-gradient(#b33473,#e20f0f,#b9e712,#10cf29f8,#4312f3ce);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size:500%;
+    text-align: center;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    25%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    0%{
+        background-position: 0 100%;
+    }
+}
+
+.wrapper span{
+    font-size: 18px;
+    color: transparent;
+    background-image: linear-gradient(#43b334,#bbe20f,#e71236,#f717f7,#f3128e);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size:500%;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    25%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    0%{
+        background-position: 0 100%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans";
+    color: rgb(10, 8, 8);
+    background: url(https://clockwise.software/img/blog/best-iot-startups-to-follow/header-background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+form{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+   
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px ;
+    border-radius: 30px;
+    box-shadow: 7px 7px 60px #000;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: rgb(119, 8, 8);
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    font-size: 24px;
+}
+.control button{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: rgb(239, 255, 9);
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+
+.sssss div label {
+    cursor: pointer;
+}
+.sssss div label input[type ="checkbox"]
+{
+    display: none;
+}
+.sssss div label span
+{
+    position: relative;
+    display: inline-block;
+    background: #161616;
+    padding: 8px 10px;
+    color: rgb(255, 251, 14);
+    text-shadow: 0 1px 10px rgba(255, 97, 6, 0.678);
+    border-radius: 30px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+}
+.sssss div label span:before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,.1);
+}
+.sssss div label input[type ="checkbox"]:checked ~ span
+{
+    background: linear-gradient(45deg, #0cf818 4%,#09a811 30%,
+	#2ed975 62%,#36b797 85%,#55abf1 100%);
+}
+
+html,body{
+    display: grid;
+    place-items: center;
+  }
+a{
+	text-decoration: none;
+	color:#000 ;
+}
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 59px;
+  margin: 0 6px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 10px 20px 10px rgb(4, 3, 66);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover {
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 30px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(3):hover .icon{
+	background: linear-gradient(45deg, #fed373 4%,#f15245 30%,
+	#d92e7f 62%,#9b36b7 85%,#515ecf 100%);
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button:nth-child(6):hover .icon{
+    background: linear-gradient(45deg, #00ff88 4%,#7de050 30%,
+	#268509 62%,#9cf310 85%,#03fd03 100%);
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: rgb(255, 255, 255);
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #333;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+.wrapper .button:nth-child(6) span{
+    color: #00ff88;
+}

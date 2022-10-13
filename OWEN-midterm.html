@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width,initial-scale=1.0">
+        <title>Midterm IOT RATCHAPOL</title>
+        <script src="API_sensor4type.js"></script>
+        <link rel="stylesheet" href="midterm.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+    </head>
+
+    <body>
+        <br>
+        <div class="wrapper">
+            <div class="button">
+               <div class="icon"><a href="https://web.facebook.com/ratchapolsrilertlos" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+               </div>
+               <span>My facebook</span></a>
+            </div>
+            
+            <div class="button">
+               <div class="icon"><a href="https://github.com/Ratchapol0507" target="_blank">
+                  <i class="fab fa-github"></i>
+               </div>
+               <span>My github</span></a>
+            </div>
+        
+            <div class="button">
+               <div class="icon"><a href="https://www.instagram.com/raca_pl/" target="_blank">
+                  <i class="fab fa-instagram" ></i>
+               </div>
+               <span>My instagram</span></a>
+            </div>
+            
+            <div class="button">
+               <div class="icon"><a href="https://twitter.com/" target="_blank">
+        
+                <i class="fab fa-twitter"></i>
+               </div>
+               <span>Twitter</span></a>
+            </div> 
+        
+            <div class="button">
+               <div class="icon"><a href="https://www.youtube.com" target="_blank">
+        
+                  <i class="fab fa-youtube"></i>
+               </div>
+               <span>YouTube</span></a>
+            </div>
+
+            <div class="button">
+                <div class="icon"><a href="http://127.0.0.1:5500/POST%20Midterm.html" target="_blank">
+         
+                   <i class="fas fa-forward"></i>
+                </div>
+                <span>My POST</span></a>
+             </div>
+         </div>
+
+            <form >
+                <div class="wrapper">
+                    <div class="form-container">
+                    <h1>API SENSOR</h1>
+                    <div class="control">
+                        <label for = "Sensor name">Sensor name</label>
+                        <input id="name" list = "dataname" required placeholder="name" type="text">
+                    </div>
+                    <div class="control">
+                        <label for = "Sensor id">Sensor id</label>
+                        <input id="id" list = "dataid" required placeholder="id" type="text">
+                    </div>
+                    <div>
+                        <div class="sssss">
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="">
+                                    <span>Remember Data.</span>
+                                </label>
+                            </div>
+                        </div>
+                    <div class="control">
+                        <button class="btn-1">Confirm</button>
+                    </div>
+                <datalist id ="dataname">
+                    <option value="temperature-transducer">
+                    <option value="pressure-transducer">
+                    <option value="level-transducer">
+                    <option value="flow-transducer">
+                </datalist>
+                <datalist id ="dataid">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                </datalist>
+            </form>
+        <h3>
+            <div id = "answer1"></div>
+            <div id = "answer2"></div>
+            <div id = "answer3"></div>
+            <div id = "answer4"></div>
+            <div id = "answer5"></div>
+            <div id = "answer6"></div>
+        </h3>
+    </body>
+</html>

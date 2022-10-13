@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../HTML"
+		},
+		{
+			"path": "../HTML-CSS-main"
+		},
+		{
+			"path": "../Javascripts-main"
+		},
+		{
+			"path": "../Node.js-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Javascripts-main"
+	}
+}

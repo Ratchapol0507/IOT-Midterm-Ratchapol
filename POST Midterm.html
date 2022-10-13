@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width,initial-scale=1.0">
+        <title>Midterm Part2 IOT RATCHAPOL</title>
+        <link rel="stylesheet" href="POST Midterm.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+    </head>
+    <body>
+        <form action="https://midterm-exam-010723313-2022.herokuapp.com/student_post" method="post">
+                <div class="wrapper">
+                    <div class="form-container">
+                    <h1>POST SENSOR</h1>
+                    <div class="control">
+                        <label for = "Sensor id">Student ID</label>
+                        <input id="id" list = "dataid" required placeholder="id" name="st_id">
+                    </div>
+                    <div class="control">
+                        <label for = "Student name">Student name</label>
+                        <input id="name" list = "dataname" required placeholder="name" name="st_name">
+                    </div>
+                    <div class="control">
+                        <label for = "Sensor name">Sensor name</label>
+                        <input id="Sensor name" list = "datasname" required placeholder="name" name="sensor_name">
+                    </div>
+                    <div class="control">
+                        <label for = "Sensor type">Sensor type</label>
+                        <input id="type" list = "datatype" required placeholder="type" name="sensor_type">
+                    </div>
+                    <div class="control">
+                        <label for = "Sensor unit">Sensor unit</label>
+                        <input id="unit" list = "dataunit" required placeholder="unit" name="sensor_unit">
+                    </div>
+                    <div class="control">
+                        <label for = "Sensor value">Sensor value</label>
+                        <input id="value" list = "datavalue" required placeholder="value" name="sensor_value">
+                    </div>
+                    <div>
+                        <div class="sssss">
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="">
+                                    <span>Remember Data.</span>
+                                </label>
+                            </div>
+                        </div>
+                    <div class="control">
+                        <button class="btn-1">Confirm</button>
+                    </div>
+                <datalist id ="datasname">
+                    <option value="temperature-transducer">
+                    <option value="pressure-transducer">
+                    <option value="level-transducer">
+                    <option value="flow-transducer">
+                </datalist>
+                <datalist id ="dataid">
+                    <option value="6301072510258">
+                    <option value="6301072516175">
+                    <option value="6301072516019">
+                    <option value="6301072516027">
+                    <option value="6301072516132">
+                    <option value="6301072516116">
+                    <option value="6301072516183">
+                    <option value="6301072516086">
+                </datalist>
+                <datalist id ="dataname">
+                    <option value="RATCHAPOL SRILERTLOS">
+                    <option value="RATIPHONG">
+                    <option value="KANYARAT ">
+                    <option value="PANACHAI">
+                    <option value="PONGPAK">
+                    <option value="PANADON">
+                    <option value="WANCHART">
+                    <option value="NITHI">   
+                </datalist>
+                <datalist id ="datatype">
+                    <option value="RTD">
+                    <option value="Thermocouple-K">
+                    <option value="Thermocouple-T">
+                    <option value="Strain-gauge">
+                    <option value="Capacitive">
+                    <option value="Piezoelectric">
+                    <option value="ultrasonic">
+                    <option value="Coirolis">
+                    <option value="radar">
+                    <option value="magnetic">
+                    <option value="vortex">
+                </datalist>
+                <datalist id ="dataunit">
+                    <option value="*C">
+                    <option value="psi">
+                    <option value="kPa">
+                    <option value="m">
+                    <option value="m^3/h">
+                    <option value="gpm">
+                </datalist>
+                <datalist id ="datavalue">
+                    <option value="655.2409997486412">
+                    <option value="214.99919441139355">
+                    <option value="2.390182031693512">
+                    <option value="3.9022994184572624">
+                    <option value="35.29236981189251">
+                </datalist>
+            </form>
+            <div class="wrapper">
+                <div class="button">
+                   <div class="icon"><a href="http://127.0.0.1:5500/OWEN-midterm.html" target="_blank">
+                      <i class="fas fa-backward"></i>
+                   </div>
+                   <span>My Fetch</span></a>
+                </div>
+            </div>
+    </body>
+</html>
